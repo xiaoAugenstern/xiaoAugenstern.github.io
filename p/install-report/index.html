@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="hugo使用stack主题搭建博客及部署">
+<title>Install report</title>
+
+<link rel='canonical' href='http://localhost:1313/p/install-report/'>
+
+<link rel="stylesheet" href="/scss/style.min.ca03f192e05532ee9489510ccfb79cf3474517d29b8276dccd8157488f205323.css"><meta property='og:title' content="Install report">
+<meta property='og:description' content="hugo使用stack主题搭建博客及部署">
+<meta property='og:url' content='http://localhost:1313/p/install-report/'>
+<meta property='og:site_name' content='xiaoman'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='emoji' /><meta property='article:published_time' content='2023-04-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-04-20T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/install-report/static/mao2.jpg' />
+<meta name="twitter:title" content="Install report">
+<meta name="twitter:description" content="hugo使用stack主题搭建博客及部署"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/p/install-report/static/mao2.jpg' />
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/profile_hu313fa7ebabeda18dea815142385f6ed1_64761_300x0_resize_q75_box.jpg" width="300"
+                            height="292" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">xiaoman</a></h1>
+            <h2 class="site-description">我呢 永远明媚</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Shadow-Kylin/Shadow-Kylin.github.io'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>笔记</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1-概念搭建思路和运行环境"><strong>1. 概念，搭建思路和运行环境</strong></a>
+      <ol>
+        <li><a href="#什么是-github-pages"><strong>什么是 GitHub Pages？</strong></a></li>
+        <li><a href="#什么是-hugo"><strong>什么是 Hugo？</strong></a></li>
+        <li><a href="#网站搭建思路"><strong>网站搭建思路</strong></a></li>
+        <li><a href="#运行环境"><strong>运行环境</strong></a></li>
+      </ol>
+    </li>
+    <li><a href="#2-安装"><strong>2. 安装</strong></a>
+      <ol>
+        <li><a href="#安装-chocolatey"><strong>安装 Chocolatey</strong></a></li>
+        <li><a href="#安装-hugo">安装 hugo</a></li>
+      </ol>
+    </li>
+    <li><a href="#3-创建-github-仓库"><strong>3. 创建 GitHub 仓库</strong></a>
+      <ol>
+        <li><a href="#参考">参考</a></li>
+        <li><a href="#遇到-bug">遇到 bug</a></li>
+      </ol>
+    </li>
+    <li><a href="#4-使用-stack-主题">4. 使用 stack 主题</a>
+      <ol>
+        <li><a href="#克隆博客源仓库">克隆博客源仓库</a></li>
+        <li><a href="#hugo-创建网站文件夹">hugo 创建网站文件夹</a></li>
+        <li><a href="#添加主题">添加主题</a></li>
+        <li><a href="#修改配置文件">修改配置文件</a></li>
+        <li><a href="#运行">运行</a></li>
+      </ol>
+    </li>
+    <li><a href="#5-发布内容"><strong>5. 发布内容</strong></a></li>
+    <li><a href="#6-装修我的个人主页">6. 装修我的个人主页</a>
+      <ol>
+        <li><a href="#写博客">写博客</a></li>
+        <li><a href="#修改">修改</a></li>
+      </ol>
+    </li>
+    <li><a href="#7-总结">7. 总结</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/install-report/">
+                <img src="/p/install-report/static/mao2_hu4aa8840af7fcd77a0a29d17b2dd16d9c_121207_800x0_resize_q75_box.jpg"
+                        srcset="/p/install-report/static/mao2_hu4aa8840af7fcd77a0a29d17b2dd16d9c_121207_800x0_resize_q75_box.jpg 800w, /p/install-report/static/mao2_hu4aa8840af7fcd77a0a29d17b2dd16d9c_121207_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="795" 
+                        loading="lazy"
+                        alt="Featured image of post Install report" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/hugo/" >
+                Hugo
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/install-report/">Install report</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            hugo使用stack主题搭建博客及部署
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 20, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="1-概念搭建思路和运行环境">
+    <a href="#1-%e6%a6%82%e5%bf%b5%e6%90%ad%e5%bb%ba%e6%80%9d%e8%b7%af%e5%92%8c%e8%bf%90%e8%a1%8c%e7%8e%af%e5%a2%83" class="header-anchor">#</a>
+    <strong>1. 概念，搭建思路和运行环境</strong>
+</h1><h2 id="什么是-github-pages">
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%af-github-pages" class="header-anchor">#</a>
+    <strong>什么是 GitHub Pages？</strong>
+</h2><p>GitHub Pages 是一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所以是 GitHub + Pages。</p>
+<h2 id="什么是-hugo">
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%af-hugo" class="header-anchor">#</a>
+    <strong>什么是 Hugo？</strong>
+</h2><p>Hugo 是用 Go 语言写的静态网站生成器（Static Site Generator）。可以把 Markdown 文件转化成 HTML 文件。</p>
+<h2 id="网站搭建思路">
+    <a href="#%e7%bd%91%e7%ab%99%e6%90%ad%e5%bb%ba%e6%80%9d%e8%b7%af" class="header-anchor">#</a>
+    <strong>网站搭建思路</strong>
+</h2><ol>
+<li>
+<p>创建 2 个 GitHub 仓库</p>
+<ul>
+<li><strong>博客源仓库</strong>：储存所有 Markdown 源文件（博客内容），和博客中用到的图片等。</li>
+<li><strong>GitHub Pages 仓库</strong>：储存由 Hugo 从 Markdown 文件生成的 HTML 文件。</li>
+</ul>
+</li>
+<li>
+<p>将在博客源仓库中 Hugo 生成的静态 HTML 文件部署到远端 GitHub Pages 仓库中。</p>
+</li>
+</ol>
+<h2 id="运行环境">
+    <a href="#%e8%bf%90%e8%a1%8c%e7%8e%af%e5%a2%83" class="header-anchor">#</a>
+    <strong>运行环境</strong>
+</h2><ol>
+<li>了解基本的终端命令行知识，如：cd, ls</li>
+<li>安装了 Git，并且了解基本的 Git 知识</li>
+<li>有一个 GitHub 账号</li>
+<li>有自己偏好的代码编辑器（ <code>VS Code</code> ）</li>
+<li>有一个自己喜欢的主题 ( 我选择的 <a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/"  target="_blank" rel="noopener"
+    >Stack</a> )</li>
+</ol>
+<h1 id="2-安装">
+    <a href="#2-%e5%ae%89%e8%a3%85" class="header-anchor">#</a>
+    <strong>2. 安装</strong>
+</h1><h2 id="安装-chocolatey">
+    <a href="#%e5%ae%89%e8%a3%85-chocolatey" class="header-anchor">#</a>
+    <strong>安装 Chocolatey</strong>
+</h2><p>（1）以管理员身份打开 cmd，右键以管理员身份运行，</p>
+<p><img src="/p/install-report/static/BKp5bnGy6o40PxxHdk1cEfAbn2c.png"
+	width="603"
+	height="253"
+	srcset="/p/install-report/static/BKp5bnGy6o40PxxHdk1cEfAbn2c_hucb25293c4912f6b167c30ec708eb5d21_18235_480x0_resize_box_3.png 480w, /p/install-report/static/BKp5bnGy6o40PxxHdk1cEfAbn2c_hucb25293c4912f6b167c30ec708eb5d21_18235_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="238"
+		data-flex-basis="572px"
+	
+></p>
+<p>（2）必须以管理员权限打开 cmd.exe 命令行提示，执行如下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nd">@powershell</span> <span class="o">-</span><span class="n">NoProfi</span>
+</span></span><span class="line"><span class="cl"><span class="n">le</span> <span class="o">-</span><span class="n">ExecutionPolicy</span> <span class="n">Bypass</span> <span class="o">-</span><span class="n">Command</span> <span class="s2">&#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34;</span> <span class="o">&amp;&amp;</span> <span class="n">SET</span> <span class="n">PATH</span><span class="o">=%</span><span class="n">PATH</span><span class="o">%</span><span class="p">;</span><span class="o">%</span><span class="n">ALLUSERSPROFILE</span><span class="o">%</span>\<span class="n">chocolatey</span>\<span class="nb">bin</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>还有一种安装方法，使用 PowerShell，同样必须以管理员权限打开 PowerShell，执行如下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">iex</span> <span class="p">((</span><span class="n">new</span><span class="o">-</span><span class="nb">object</span> <span class="n">net</span><span class="o">.</span><span class="n">webclient</span><span class="p">)</span><span class="o">.</span><span class="n">DownloadString</span><span class="p">(</span><span class="s1">&#39;https://chocolatey.org/install.ps1&#39;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装报错：</p>
+<p><img src="/p/install-report/static/TyjbbDcI8oYEk2xHIUzcSwnbnlc.png"
+	width="1434"
+	height="376"
+	srcset="/p/install-report/static/TyjbbDcI8oYEk2xHIUzcSwnbnlc_hu359ae1dbc6e5d47ca0c2454a0caf6a21_73012_480x0_resize_box_3.png 480w, /p/install-report/static/TyjbbDcI8oYEk2xHIUzcSwnbnlc_hu359ae1dbc6e5d47ca0c2454a0caf6a21_73012_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="381"
+		data-flex-basis="915px"
+	
+></p>
+<p>只需要把 C:\ProgramData\chocolatey 这个目录删除，再重新执行安装程序就可以了。(不能科学上网)</p>
+<p>检查是否安装成功：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">choco</span> <span class="o">--</span><span class="n">version</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/GoGFbubAwo4isaxGT5Tc5Gt7nZg.png"
+	width="990"
+	height="252"
+	srcset="/p/install-report/static/GoGFbubAwo4isaxGT5Tc5Gt7nZg_hu6837bb3ad9efb1efd80443aba0999f7e_31335_480x0_resize_box_3.png 480w, /p/install-report/static/GoGFbubAwo4isaxGT5Tc5Gt7nZg_hu6837bb3ad9efb1efd80443aba0999f7e_31335_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="392"
+		data-flex-basis="942px"
+	
+></p>
+<h2 id="安装-hugo">
+    <a href="#%e5%ae%89%e8%a3%85-hugo" class="header-anchor">#</a>
+    安装 hugo
+</h2><p><img src="/p/install-report/static/2.png"
+	width="1463"
+	height="959"
+	srcset="/p/install-report/static/2_hu3cd66c78722dbb1ba5d86e3f4c4b56b6_155259_480x0_resize_box_3.png 480w, /p/install-report/static/2_hu3cd66c78722dbb1ba5d86e3f4c4b56b6_155259_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="152"
+		data-flex-basis="366px"
+	
+></p>
+<p>命令行中安装 hugo：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">choco</span> <span class="n">install</span> <span class="n">hugo</span> <span class="o">-</span><span class="n">confirm</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装 hugo-extended（扩展版本）：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">choco install hugo-extended -confirm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>检查 hugo 是否安装成功：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/InIabFTcfo0AhtxZif8c8qesnEe.png"
+	width="1428"
+	height="162"
+	srcset="/p/install-report/static/InIabFTcfo0AhtxZif8c8qesnEe_hu4456e973c20a8cc8db973bec12e4e8c1_39695_480x0_resize_box_3.png 480w, /p/install-report/static/InIabFTcfo0AhtxZif8c8qesnEe_hu4456e973c20a8cc8db973bec12e4e8c1_39695_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="881"
+		data-flex-basis="2115px"
+	
+></p>
+<h1 id="3-创建-github-仓库">
+    <a href="#3-%e5%88%9b%e5%bb%ba-github-%e4%bb%93%e5%ba%93" class="header-anchor">#</a>
+    <strong>3. 创建 GitHub 仓库</strong>
+</h1><h2 id="参考">
+    <a href="#%e5%8f%82%e8%80%83" class="header-anchor">#</a>
+    参考
+</h2><p><img src="/p/install-report/static/3.1.png"
+	width="1676"
+	height="422"
+	srcset="/p/install-report/static/3.1_hu03b9cba0a9a087a77b54de72d09bedb2_189412_480x0_resize_box_3.png 480w, /p/install-report/static/3.1_hu03b9cba0a9a087a77b54de72d09bedb2_189412_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="397"
+		data-flex-basis="953px"
+	
+></p>
+<p><a class="link" href="https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/#12-%E4%BB%80%E4%B9%88%E6%98%AF-hugo"  target="_blank" rel="noopener"
+    >如何用 GitHub Pages + Hugo 搭建个人博客</a></p>
+<p>xiaoAugenstern.github.io 的 readme 后面要删除</p>
+<h2 id="遇到-bug">
+    <a href="#%e9%81%87%e5%88%b0-bug" class="header-anchor">#</a>
+    遇到 bug
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">HTTP</span><span class="o">/</span><span class="mi">2</span> <span class="n">stream</span> <span class="mi">1</span> <span class="n">was</span> <span class="ow">not</span> <span class="n">closed</span> <span class="n">cleanly</span> <span class="n">before</span> <span class="n">end</span> <span class="n">of</span> <span class="n">the</span> <span class="n">underlying</span> <span class="n">stream</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>解决方案：关闭所有的 github 连接，删除所有 github 页面</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+</span></span><span class="line"><span class="cl">error: 5968 bytes of body are still expected
+</span></span><span class="line"><span class="cl">fetch-pack: unexpected disconnect while reading sideband packet
+</span></span><span class="line"><span class="cl">fatal: early EOF
+</span></span><span class="line"><span class="cl">fatal: fetch-pack: invalid index-pack output
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>解决方案：重新换个 vpn</p>
+<h1 id="4-使用-stack-主题">
+    <a href="#4-%e4%bd%bf%e7%94%a8-stack-%e4%b8%bb%e9%a2%98" class="header-anchor">#</a>
+    4. 使用 stack 主题
+</h1><h2 id="克隆博客源仓库">
+    <a href="#%e5%85%8b%e9%9a%86%e5%8d%9a%e5%ae%a2%e6%ba%90%e4%bb%93%e5%ba%93" class="header-anchor">#</a>
+    克隆博客源仓库
+</h2><p>到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">xiaoAugenstern</span><span class="o">/</span><span class="n">xiaomanBlog</span><span class="o">.</span><span class="n">git</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/4.1.png"
+	width="876"
+	height="580"
+	srcset="/p/install-report/static/4.1_hu2333998e6ea137d43bd540f9035bfade_80962_480x0_resize_box_3.png 480w, /p/install-report/static/4.1_hu2333998e6ea137d43bd540f9035bfade_80962_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="151"
+		data-flex-basis="362px"
+	
+></p>
+<h2 id="hugo-创建网站文件夹">
+    <a href="#hugo-%e5%88%9b%e5%bb%ba%e7%bd%91%e7%ab%99%e6%96%87%e4%bb%b6%e5%a4%b9" class="header-anchor">#</a>
+    hugo 创建网站文件夹
+</h2><p>进入刚刚克隆下来的博客源仓库文件夹，在这个文件夹里用 Hugo 创建一个网站文件夹。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">cd</span> <span class="n">xiaomanBlog</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>用 Hugo 创建网站文件夹的命令是 <code>hugo new site 网站名字</code>。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">hugo</span> <span class="n">new</span> <span class="n">site</span> <span class="n">xiaoman</span><span class="o">-</span><span class="n">blog</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>用 Hugo 创建的网站共有 7 个文件夹和 1 个文件。</p>
+<ul>
+<li>archetypes：存放用 hugo 命令新建的 Markdown 文件应用的 front matter 模版</li>
+<li>content：存放内容页面，比如「博客」、「读书笔记」等</li>
+<li>layouts：存放定义网站的样式，写在 <code>layouts</code> 文件下的样式会覆盖安装的主题中的 <code>layouts</code> 文件同名的样式</li>
+<li>static：存放所有静态文件，如图片</li>
+<li>data：存放创建站点时 Hugo 使用的其他数据</li>
+<li>public：存放 Hugo 生成的静态网页</li>
+<li>themes：存放主题文件</li>
+<li>config.toml：网站配置文件</li>
+</ul>
+<h2 id="添加主题">
+    <a href="#%e6%b7%bb%e5%8a%a0%e4%b8%bb%e9%a2%98" class="header-anchor">#</a>
+    添加主题
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">git</span> <span class="n">submodule</span> <span class="n">add</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">CaiJimmy</span><span class="o">/</span><span class="n">hugo</span><span class="o">-</span><span class="n">theme</span><span class="o">-</span><span class="n">stack</span><span class="o">/</span> <span class="n">themes</span><span class="o">/</span><span class="n">hugo</span><span class="o">-</span><span class="n">theme</span><span class="o">-</span><span class="n">stack</span>
+</span></span><span class="line"><span class="cl"><span class="n">cd</span> <span class="n">themes</span>
+</span></span><span class="line"><span class="cl"><span class="n">ls</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/OrYhbDPzGoHiTKxLgC2cVOmWnkb.png"
+	width="253"
+	height="601"
+	srcset="/p/install-report/static/OrYhbDPzGoHiTKxLgC2cVOmWnkb_huf1646d31ca58ad0b8a282418a4e42c05_31530_480x0_resize_box_3.png 480w, /p/install-report/static/OrYhbDPzGoHiTKxLgC2cVOmWnkb_huf1646d31ca58ad0b8a282418a4e42c05_31530_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="42"
+		data-flex-basis="101px"
+	
+>
+<img src="/p/install-report/static/I4uGb4pgqo1VN9xadTGcQIbknJy.png"
+	width="899"
+	height="586"
+	srcset="/p/install-report/static/I4uGb4pgqo1VN9xadTGcQIbknJy_hu25ee56dd50c15b56920c998d48f23284_88143_480x0_resize_box_3.png 480w, /p/install-report/static/I4uGb4pgqo1VN9xadTGcQIbknJy_hu25ee56dd50c15b56920c998d48f23284_88143_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="153"
+		data-flex-basis="368px"
+	
+></p>
+<h2 id="修改配置文件">
+    <a href="#%e4%bf%ae%e6%94%b9%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6" class="header-anchor">#</a>
+    修改配置文件
+</h2><p>（1）<code>exampleSite</code> 的文件复制到站点目录</p>
+<p><a class="link" href="https://blog.csdn.net/qq_41408081/article/details/120890571#:~:text=%23%20%E8%BF%9B%E5%85%A5%E4%BD%A0%E6%83%B3%E6%94%BE%E7%AB%99%E7%82%B9%E7%9A%84%E7%9B%AE%E5%BD%95%EF%BC%8C%E9%BC%A0%E6%A0%87%E5%8F%B3%E5%87%BB%E7%A9%BA%E7%99%BD%E5%A4%84%EF%BC%8C%E9%80%89%E6%8B%A9%20Git%20Bash%20Here%20%23%201%E3%80%81%E6%B5%8B%E8%AF%95%20hugo,https%3A%2F%2Fthemes.gohugo.io%2F%20%23%204%E3%80%81cd%20webName%20%E8%BF%9B%E5%85%A5%E7%AB%99%E7%82%B9%E7%9B%AE%E5%BD%95%20%EF%BC%8C%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%20hugo%20server"  target="_blank" rel="noopener"
+    >hugo 建站(本地搭建)_hugo stack-CSDN 博客</a></p>
+<p><img src="/p/install-report/static/XLdsbv2H0olUluxA6WMcMw2xnve.png"
+	width="912"
+	height="666"
+	srcset="/p/install-report/static/XLdsbv2H0olUluxA6WMcMw2xnve_hufb29bcde3157474bbfac0c60e97b7c0a_166676_480x0_resize_box_3.png 480w, /p/install-report/static/XLdsbv2H0olUluxA6WMcMw2xnve_hufb29bcde3157474bbfac0c60e97b7c0a_166676_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="328px"
+	
+></p>
+<p>（2）<strong>启用主题</strong></p>
+<p>在 hugo.toml 中添加一句 <code>theme='hugo-theme-stack'</code></p>
+<p><img src="/p/install-report/static/NJ6NbMfbIoVmH5xSrzUcIzMVnBe.png"
+	width="456"
+	height="133"
+	srcset="/p/install-report/static/NJ6NbMfbIoVmH5xSrzUcIzMVnBe_huf556ae26a998c3b446cf63bf5b6e1471_12671_480x0_resize_box_3.png 480w, /p/install-report/static/NJ6NbMfbIoVmH5xSrzUcIzMVnBe_huf556ae26a998c3b446cf63bf5b6e1471_12671_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="342"
+		data-flex-basis="822px"
+	
+></p>
+<p>（3）启动 Hugo 的开发服务器查看站点</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">hugo</span> <span class="n">server</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/KW6PbOUfSoqGpUx6Cozc0yUmnqg.png"
+	width="1501"
+	height="610"
+	srcset="/p/install-report/static/KW6PbOUfSoqGpUx6Cozc0yUmnqg_hu420dc1210689793c1c0a8ad4ede32a6a_130319_480x0_resize_box_3.png 480w, /p/install-report/static/KW6PbOUfSoqGpUx6Cozc0yUmnqg_hu420dc1210689793c1c0a8ad4ede32a6a_130319_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="246"
+		data-flex-basis="590px"
+	
+></p>
+<p>（4）修改配置文件和内容</p>
+<p>参考：<a class="link" href="https://blog.csdn.net/2201_75288929/article/details/132507563?spm=1001.2101.3001.6650.2&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-132507563-blog-120890571.235%5Ev43%5Epc_blog_bottom_relevance_base5&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-132507563-blog-120890571.235%5Ev43%5Epc_blog_bottom_relevance_base5&amp;utm_relevant_index=5"  target="_blank" rel="noopener"
+    >【Hugo】Stack 主题的使用记录_hugo stack-CSDN 博客</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mv</span> <span class="n">hugo</span><span class="o">.</span><span class="n">toml</span> <span class="n">hugo</span><span class="o">.</span><span class="n">toml</span><span class="o">.</span><span class="n">bak</span>
+</span></span><span class="line"><span class="cl"><span class="n">cp</span> <span class="n">themes</span><span class="o">/</span><span class="n">hugo</span><span class="o">-</span><span class="n">theme</span><span class="o">-</span><span class="n">stack</span><span class="o">/</span><span class="n">exampleSite</span><span class="o">/</span><span class="n">config</span><span class="o">.</span><span class="n">yaml</span> <span class="o">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="运行">
+    <a href="#%e8%bf%90%e8%a1%8c" class="header-anchor">#</a>
+    运行
+</h2><p><img src="/p/install-report/static/4.5.png"
+	width="1913"
+	height="932"
+	srcset="/p/install-report/static/4.5_hu23321d47237aeb223ad88a6ec1189d8e_583251_480x0_resize_box_3.png 480w, /p/install-report/static/4.5_hu23321d47237aeb223ad88a6ec1189d8e_583251_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="205"
+		data-flex-basis="492px"
+	
+></p>
+<h1 id="5-发布内容">
+    <a href="#5-%e5%8f%91%e5%b8%83%e5%86%85%e5%ae%b9" class="header-anchor">#</a>
+    <strong>5. 发布内容</strong>
+</h1><ol>
+<li>
+<p><code>hugo</code>  命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 <code>public</code> 文件夹中。</p>
+</li>
+<li>
+<p>因为 <code>hugo</code>  生成的静态 HTML 网页文件默认存放在  <code>public</code>  文件中，所以推送网页内容只需要把  <code>public</code>  中的 HTML 网页文件发布到 GitHub Pages 仓库中。</p>
+</li>
+<li>
+<p>将  <code>public</code>  文件夹初始化为 Git 仓库，并设置默认主分支名为  <code>main</code>。这么做的原因是：</p>
+<ul>
+<li>GitHub 创建仓库时生成的默认主分支名是 <code>main</code></li>
+<li>用 <code>git init</code> 初始化 Git 仓库时创建的默认主分支名是 <code>master</code></li>
+<li>将 <code>git init</code> 创建的 <code>master</code> 修改成 <code>main</code> ，再推送给远端仓库 <code>&lt;username&gt;.github.io</code> ，这样才不会报错。</li>
+</ul>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git init -b main           <span class="c1"># 这种方法我不行</span>
+</span></span><span class="line"><span class="cl">git branch -m master main  <span class="c1"># 这种可以</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/install-report/static/VRpOballaophVmxs3J9cprrQnVg.png"
+	width="884"
+	height="165"
+	srcset="/p/install-report/static/VRpOballaophVmxs3J9cprrQnVg_huf2dc2a90d3821277c624cecd77c9b9a9_25081_480x0_resize_box_3.png 480w, /p/install-report/static/VRpOballaophVmxs3J9cprrQnVg_huf2dc2a90d3821277c624cecd77c9b9a9_25081_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="535"
+		data-flex-basis="1285px"
+	
+></p>
+<ol start="4">
+<li>将 <code>public</code>  文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。</li>
+</ol>
+<ul>
+<li>⚠ 注意：要让 SSH 链接起作用，需要你添加过 SSH Key。如果你没有设置过 SSH Key，需要添加。
+<img src="/p/install-report/static/key.png"
+	width="1853"
+	height="687"
+	srcset="/p/install-report/static/key_hua7c889d2028ce8553f4071a7ff4cb69a_107737_480x0_resize_box_3.png 480w, /p/install-report/static/key_hua7c889d2028ce8553f4071a7ff4cb69a_107737_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="269"
+		data-flex-basis="647px"
+	
+></li>
+</ul>
+<ol start="5">
+<li>链接到 ssh</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git remote add origin git@github.com:xiaoAugenstern/xiaoAugenstern.github.io.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>推送博客源仓库的  <code>public</code>  文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 <code>git pull --rebase origin main</code> 和远端仓库同步，否则会报错。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git pull --rebase origin main
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;...(修改的信息)&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>转到 GitHub 查看 GitHub Pages 仓库中是否存在刚刚推送的文件，存在则代表推送成功。</li>
+</ul>
+<p><img src="/p/install-report/static/GqSsbf1yCoyVnCxt4o5czt2inmb.png"
+	width="1246"
+	height="602"
+	srcset="/p/install-report/static/GqSsbf1yCoyVnCxt4o5czt2inmb_huf9a60e4877ce82618b059b2b37a1bafe_71934_480x0_resize_box_3.png 480w, /p/install-report/static/GqSsbf1yCoyVnCxt4o5czt2inmb_huf9a60e4877ce82618b059b2b37a1bafe_71934_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="206"
+		data-flex-basis="496px"
+	
+></p>
+<p>可以通过域名访问了 <a class="link" href="https://xiaoAugenstern.github.io/"  target="_blank" rel="noopener"
+    >https://xiaoAugenstern.github.io/</a></p>
+<p><img src="/p/install-report/static/KtAKbb31goMTu8xLrCxc8kbanys.png"
+	width="1142"
+	height="714"
+	srcset="/p/install-report/static/KtAKbb31goMTu8xLrCxc8kbanys_hu294f2bb93bc4babb50781f941e538023_105658_480x0_resize_box_3.png 480w, /p/install-report/static/KtAKbb31goMTu8xLrCxc8kbanys_hu294f2bb93bc4babb50781f941e538023_105658_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="383px"
+	
+></p>
+<h1 id="6-装修我的个人主页">
+    <a href="#6-%e8%a3%85%e4%bf%ae%e6%88%91%e7%9a%84%e4%b8%aa%e4%ba%ba%e4%b8%bb%e9%a1%b5" class="header-anchor">#</a>
+    6. 装修我的个人主页
+</h1><h2 id="写博客">
+    <a href="#%e5%86%99%e5%8d%9a%e5%ae%a2" class="header-anchor">#</a>
+    写博客
+</h2><p>写 markdown 文档感觉格式不好看</p>
+<p>别人给的建议 <a class="link" href="https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/#%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0"  target="_blank" rel="noopener"
+    >建站技术 | 使用 Hugo+Stack 简单搭建一个博客</a>：</p>
+<blockquote>
+<p>曾经听过 Typora 的大名，然而不幸的是该编辑器已经转为收费且优化不足，因此这里推荐免费开源且好用的 <a class="link" href="https://github.com/marktext/marktext"  target="_blank" rel="noopener"
+    >MarkText</a>。
+安装方法很简单，<a class="link" href="https://github.com/marktext/marktext/releases"  target="_blank" rel="noopener"
+    >release</a> 里面下载对应的版本安装即可。不过在我写这篇博客的时候 MarkText 还没有做好国际化的准备，因此尽管已经（看起来）有中文语言文件却无法切换语言。
+这里推荐一个大佬的汉化版本 <a class="link" href="https://github.com/chinayangxiaowei/marktext-chinese-language-pack"  target="_blank" rel="noopener"
+    >marktext-chinese-language-pack</a>，可以直接在该仓库的 <a class="link" href="https://github.com/chinayangxiaowei/marktext-chinese-language-pack/releases"  target="_blank" rel="noopener"
+    >release</a> 仓库里下载对应版本的压缩包，替换到原版安装目录就好了（或者不安装原版直接使用汉化的程序文件，应该是直接可以用的，不过我比较喜欢通过官方安装器安装一遍以免注册表或者启动栏之类的问题）。
+打开之后应该就是中文了，简单设置后直接输入便可以开始进行内容的编写了。</p>
+</blockquote>
+<p>我是用飞书先写，然后再转 markdown 格式（也不好用，飞书格式也没有保存下来）</p>
+<p><a class="link" href="https://blog.csdn.net/qq_39811006/article/details/135902394"  target="_blank" rel="noopener"
+    >【飞书小技巧】——飞书文档转 markdown 详细教程_飞书文章下载为 markdown-CSDN 博客</a></p>
+<h2 id="修改">
+    <a href="#%e4%bf%ae%e6%94%b9" class="header-anchor">#</a>
+    修改
+</h2><p>首先在博客根目录下的assets下创建一个名为scss的文件夹,然后在scss文件夹里创建一个名为custom.scss的文件,最终效果为~blog/assets/scss/custom.scss,创建好文件后,接下来对于主题的大部分样式魔改都将写进这个custom.scss.</p>
+<p><a class="link" href="https://blog.linsnow.cn/p/modify-hugo/"  target="_blank" rel="noopener"
+    >Hugo主题魔改</a></p>
+<h1 id="7-总结">
+    <a href="#7-%e6%80%bb%e7%bb%93" class="header-anchor">#</a>
+    7. 总结
+</h1><p>（1）选择原因<br></p>
+<ul>
+<li>好看，简洁，大方，stack这个主题用的人也挺多的，可以抄抄他们的装修<br></li>
+</ul>
+<p>（2）页面布局</p>
+<ul>
+<li>有五个页面：主题、关于、笔记、搜索、链接<br></li>
+<li>修改：细节调整、实现双栏、添加欢迎横幅&hellip;</li>
+</ul>
+<p>（3）反思</p>
+<ul>
+<li>一直都想做一个自己的person page，但是懒哈哈哈哈哈，上面这个报告也是我自己的一个实现流程，小白刚接触，有很多地方容易出现错误，做这个网页也花了不少时间，但是完成了真的很开心✨</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/emoji/">Emoji</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 xiaoman
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.25.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

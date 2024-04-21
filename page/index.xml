@@ -2,37 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on xiaoman</title>
-        <link>https://xiaoAugenstern.github.io/page/</link>
+        <link>http://localhost:1313/page/</link>
         <description>Recent content in Pages on xiaoman</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xiaoman</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoAugenstern.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>笔记</title>
-        <link>https://xiaoAugenstern.github.io/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoAugenstern.github.io/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://xiaoAugenstern.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoAugenstern.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;i(e)nfj
-七分乐观主义 三分浪漫主义
-爱美食/爱睡觉/满脑子幻想
-摄影/跳舞/爬山&amp;hellip;/古筝/钢琴/滑雪&lt;/p&gt;
-</description>
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;div style=&#34;text-align: center;&#34;&gt;
+hello hello~&lt;br&gt;
+看到这里希望你天天开心💗&lt;br&gt;
+&lt;p&gt;你可以叫我&lt;br&gt;
+小汪 / 阿仔 / 曼子 / 汪总 / &amp;hellip;&lt;/p&gt;
+&lt;p&gt;简单介绍自己&lt;br&gt;
+ecnu | 02 研一 | i ( e ？) nfj&lt;br&gt;
+七分乐观主义&lt;br&gt;
+三分浪漫主义&lt;/p&gt;
+&lt;p&gt;爱美食 / 爱睡觉 / 爱旅游  &lt;br&gt;
+努力收集地球🌏碎片&lt;/p&gt;
+&lt;p&gt;摄影 / 跳舞 / 空手道 &lt;br&gt;
+打球 (目前只会羽毛球🏸)&lt;br&gt;
+古筝 / 钢琴 / 滑雪&lt;br&gt;
+&amp;hellip;&lt;/p&gt;
+&lt;p&gt;喜欢记录 / 美好见证官&lt;br&gt;
+希望和大家成为好朋友 👩🏻‍🤝‍👩🏻&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;小汪的旅行 ✈ ：&lt;br&gt;
+重庆 - 南京 - 青岛 - 无锡 - 苏州 - 西安 -&lt;br&gt;
+成都 - 都江堰 - 九寨沟 - 阿坝藏族羌族自治区 -&lt;br&gt;
+北京 - 哈尔滨 - 长白山 - 延吉- 合肥 - 安庆 -&lt;br&gt;
+池州 - 上海 - 昆明 - 大理 - 丽江 - 无锡&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;上海&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/shhai1.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/shhai2.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+上海是我一直都超级喜欢的城市，所以研究生的时候就选择来到这里。
+&lt;figure&gt;
+&lt;img src=&#34;img/shhai3.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/shhai4.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+公主回家了！
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;长白山&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/cb1.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/cb2.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/huaxue1.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/huaxue3.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/xtt.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/xtt2.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;延吉&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/yj1.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/yj2.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;哈尔滨&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/heb1.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/heb2.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/heb4.jpg&#34; width=&#34;500&#34; &gt;
+    &lt;img src=&#34;img/heb5.jpg&#34; width=&#34;500&#34; &gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;西安&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/xian3.jpg&#34; width=500 &gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;苏州&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;img/su2.jpg&#34; width=500/&gt;
+&lt;img src=&#34;img/su3.jpg&#34; width=500/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;南京&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/nj1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/nj2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;成都&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/cd1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/cd2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;四姑娘山&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/sgn2.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/sgn3.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;都江堰&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/djy.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/djy2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;重庆&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/cq1.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;合肥&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/hf1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/hf2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;天柱山&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/tz1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/tz2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;北京&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/bj1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/bj3.jpg&#34;  width=500&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;span style=&#34;font-size: 24px;&#34;&gt;📍 &lt;strong&gt;无锡&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;img/wx1.jpg&#34;  width=500&gt;
+    &lt;img src=&#34;img/wx2.jpg&#34;  width=500&gt;
+&lt;/figure&gt;</description>
         </item>
         <item>
         <title>链接</title>
-        <link>https://xiaoAugenstern.github.io/%E9%93%BE%E6%8E%A5/</link>
+        <link>http://localhost:1313/%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoAugenstern.github.io/%E9%93%BE%E6%8E%A5/</guid>
+        <guid>http://localhost:1313/%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -64,10 +173,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://xiaoAugenstern.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoAugenstern.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
